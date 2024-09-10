@@ -15,7 +15,7 @@ public class TextTTTGame {
         MakeMoveUseCase useCase = new MakeMoveUseCase(board, presenter);
         TicTacToeController controller = new TicTacToeController(useCase);
         Scanner scanner = new Scanner(System.in);
-
+// Randome
         System.out.println("To exit the game at any time, type '9'. To start, type any other number.");
         int userCommand = scanner.nextInt();
 
